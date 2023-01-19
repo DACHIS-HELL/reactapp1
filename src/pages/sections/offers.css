@@ -1,0 +1,105 @@
+.offer{
+    width: 100%;
+    height: 800px;
+    background-image: url('../../images/fdf-min.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 200px;
+}
+@media only screen and (max-width: 547px) {
+    .offer{
+        max-height: 1400px;
+        height: 100%;
+    }
+}
+.offer article{
+    width: 250px;
+    height: 250px;
+    border-bottom: 10px solid orange;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.offer article:hover{
+    margin-top: 5px;
+    transition: 0.4s;
+}
+.icon{
+    color: rgb(234, 167, 11);
+    width: 65px;
+    height: 65px;
+    padding: 15px;
+}
+.offer article h5{
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.offer article p{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.offer article p:hover{
+    opacity: 50%;
+}
+.first_section{
+    display: flex;
+    justify-content: center;
+}
+.second_section{
+    display: flex;
+    /* align-items: center; */
+    background-image: url('../../images/ghgh.jpg');
+}
+.summary{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 100px;
+    
+}
+@media only screen and (max-width: 570px) {
+    .summary{
+        height: 2000px;
+    }
+}
+.summary div{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.summary div p{
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+}
+.summary div summary{
+    line-height: 30px;
+    color: white;
+}
+.user{
+    width: 50%;
+}
+.user img{
+    width: 100%;
+}
+@media only screen and (max-width: 820px) {
+   .user{
+    display: none;
+   }
+}

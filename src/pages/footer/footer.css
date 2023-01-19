@@ -1,0 +1,39 @@
+footer{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 60px;
+}
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.sc_icon{
+    color: white;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    cursor: pointer;
+}
+.help p{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+.help{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.copyright p{
+    text-align: center;
+    color: rgb(157, 157, 157);
+    margin: 5px;
+    font-size: 14px;
+}

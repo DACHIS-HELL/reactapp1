@@ -1,0 +1,44 @@
+.products{
+    background-color: rgb(234, 167, 11);
+    height: max-content;
+    padding-top: 50px;
+
+}
+.products h5{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.products div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.products div article{
+    width: 250px;
+    height: 390px;
+    background-color: white;
+    margin: 15px;
+}
+.products div article img{
+    width: 250px;
+    height: 310px;
+}
+.products p{
+    text-align: center;
+}
+.products summary{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.products summary:hover{
+    text-decoration: underline;
+    color: rgb(152, 26, 26);
+    cursor: pointer;
+
+}
